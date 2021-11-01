@@ -11,6 +11,6 @@ public class AlphabetSubscriber extends StringSubscriber{
 
     @Override
     public void onNext(Object item) {
-        System.out.println(item);
+        System.out.println("Alphabet " + item);
     }
 }
